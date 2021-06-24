@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style-login-singup.css">
+</head>
+<body>
+    <section class="cambiador">
+        <div class="login" id="btnlogin" onclick="cambiador()">
+            Login
+        </div>
+        <div class="registrar" id="btnregistrar" onclick="cambiador()">
+            Registrarme
+        </div>
+    </section>
+    <section class="seccion-login">
+        <div class="container">
+            <div class="img">
+                <img src="/img/login.png" alt="login">
+            </div>
+            <div class="form">
+                <form id="formLogin" onsubmit=false>
+                    <div class="advertencia">
+                        <label for="">Username o password incorrectos</label>
+                    </div>
+                    <div>
+                        <label for="txtuserlogin">Username</label>
+                        <input type="text" name="txtuserlogin" id="txtuserlogin">
+                    </div>
+                    <div>
+                        <label for="txtpasswordlogin">Password</label>
+                        <input type="password" name="txtpasswordlogin" id="txtpasswordlogin">
+                    </div>
+                    <div>
+                        <input type="submit" value="Iniciar Sesion" onclick="login()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="seccion-registro">
+        <div class="container">
+            <div class="img">
+                <img src="/img/registro.png" alt="login">
+            </div>
+            <div class="form">
+                <form id="formRegistrar" onsubmit=false>
+                    <div class="lbladvertencia">
+                        <label id="lbladvertencia" for="txtuser">Username o password incorrectos</label>
+                    </div>
+                    <div>
+                        <label for="txtnombre">Nombre</label>
+                        <input type="text" name="txtnombre" id="txtnombre">
+                    </div>
+                    <div>
+                        <label for="txtapellido">Apellido</label>
+                        <input type="text" name="txtapellido" id="txtapellido">
+                    </div>
+                    <div>
+                        <label for="txtemail">Email</label>
+                        <input type="text" name="txtemail" id="txtemail">
+                    </div>
+                    <div>
+                        <label for="txtuser">Username</label>
+                        <input type="text" name="txtuser" id="txtuser">
+                    </div>
+                    <div>
+                        <label for="txtpassword">Password</label>
+                        <input type="password" name="txtpassword" id="txtpassword">
+                    </div>
+                    <div>
+                        <label for="txtconfirpassword">Confirmar password</label>
+                        <input type="password" name="txtconfirpassword" id="txtconfirpassword">
+                    </div>
+                    <div>
+                        <label for="txtdate">Confirmar password</label>
+                        <input type="date" name="txtdate" id="txtdate">
+                    </div>
+                    <div>
+                        <input type="submit" value="Registrarme" onclick="registrar()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="/js/app.js"></script>
+</body>
+</html>

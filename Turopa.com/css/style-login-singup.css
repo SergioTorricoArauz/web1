@@ -1,0 +1,120 @@
+/*cambiador de formulario*/
+.cambiador{
+    width: 100vw;
+    height: 50px;
+    background-color: #ff6363;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.cambiador div{
+    padding: 15px;
+}
+
+.cambiador div:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+/*end cambiador de formulario*/
+
+
+/*LOGIN*/
+.seccion-login{
+  max-width: 70%;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: none;
+}
+.seccion-login .img img{
+    max-width: 750px;
+    width: 100%;
+    min-width: 375PX;
+}
+.seccion-login .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seccion-login .form form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.seccion-login .form input[type=submit],input[type=text],input[type=password]{
+    padding: 10px;
+    width: 100%;
+}
+
+.seccion-login input{
+    display: block;
+}
+
+.seccion-login .advertencia{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.seccion-login .advertencia label{
+    color: white;
+}
+
+/*END LOGIN*/
+
+/*REGISTRO*/
+.seccion-registro{
+    max-width: 70%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: none;
+  }
+  .seccion-registro .img img{
+      max-width: 750px;
+      width: 100%;
+      min-width: 375PX;
+  }
+  .seccion-registro .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .seccion-registro .form form{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      height: 100%;
+      
+  }
+  
+  .seccion-registro .form input[type=submit],input[type=text],input[type=password]{
+      padding: 10px;
+      width: 100%;
+  }
+  
+  .seccion-registro input{
+      display: block;
+  }
+  
+  .seccion-registro .lbladvertencia{
+      background-color: red;
+      padding: 5px;
+      border-radius: 5px;
+      display: none;
+  }
+  
+  .seccion-registro .advertencia label{
+      color: white;
+  }
+/*END REGISTRO*/

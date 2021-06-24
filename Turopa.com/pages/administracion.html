@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <!--Comienza el header-->
+     <header class="invitado">
+        <!--menu para pantallas grandes-->
+       <nav class="escritorio">
+           <div>
+            <a href="/index.html"><img src="/img/h-m-logo-4.png" alt="logo" width="100"></a>
+           </div>
+           <div>
+               <p><a href="/pages/hombres.html">Hombres</a></p>
+           </div>
+           <div>
+            <p><a href="/pages/hombres.html">Mujeres</a></p>
+           </div>
+           <div>
+               <input type="text" name="search" id="search" placeholder="search">
+               <img id="imgsearch" src="/img/search.png" alt="search" width="25px" onclick="search()">
+           </div>
+           <div>
+               <button>Login</button>
+           </div>
+           <div>
+               <button>Sign up</button>
+           </div>
+
+       </nav>
+       <!--fin del menu para pantallas grandes-->
+
+       <!--menu para pantallas mobile-->
+       <nav class="mobile">
+           <div>
+            <a href="/index.html"><img src="/img/h-m-logo-4.png" alt="logo" width="100"></a>
+           </div>
+           <div id="menu" onclick="menu()">
+               <img src="/img/menu.png" alt="">
+           </div>
+       </nav>
+       <div class="mobile-slider">
+           <div>
+               <p><a href="/pages/hombres.html">Hombres</a></p>
+           </div>
+           <div>
+            <p><a href="/pages/mujeres.html">Mujeres</a></p>
+           </div>
+           <div>
+               <input type="text" name="search" id="search" placeholder="search">
+               <img src="/img/search.png" alt="search" width="25px">
+           </div>
+       </div>
+       <!--fin del menu para pantallas mobile-->
+   </header>
+   <header class="admin">
+       <!--menu para pantallas grandes-->
+      <nav class="escritorio">
+          <div>
+            <a href="/index.html"><img src="/img/h-m-logo-4.png" alt="logo" width="100"></a>
+          </div>
+          <div>
+              <p><a href="/pages/hombres.html">Hombres</a></p>
+          </div>
+          <div>
+           <p><a href="/pages/mujeres.html">Mujeres</a></p>
+          </div>
+          <div class="activate">
+           <p><a href="/pages/administracion.html">Administracion</a></p>
+          </div>
+          <div>
+              <input type="text" name="search" id="searchadmin" placeholder="search">
+              <img id="imgsearchadmin" src="/img/search.png" alt="search" width="25px" onclick="search()">
+          </div>
+          <div>
+            <button onclick="salir()" >Salir</button>
+        </div>
+
+      </nav>
+      <!--fin del menu para pantallas grandes-->
+
+      <!--menu para pantallas mobile-->
+      <nav class="mobile">
+          <div>
+              <img src="/img/h-m-logo-4.png" alt="logod" width="50px">
+          </div>
+          <div id="menuadmin" onclick="menu()">
+              <img src="/img/menu.png" alt="">
+          </div>
+      </nav>
+      <div class="mobile-slider">
+          <div>
+              <p><a href="/pages/hombres.html">Hombres</a></p>
+          </div>
+          <div>
+           <p><a href="/pages/mujeres.html">Mujeres</a></p>
+          </div>
+          <div class="activate">
+            <p><a href="/pages/administracion.html">Administracion</a></p>
+           </div>
+          <div>
+              <input type="text" name="search" id="searchadminmobile" placeholder="search">
+              <img src="/img/search.png" alt="search" width="25px" id="imgsearchadminmobile" onclick="search()">
+          </div>
+          <div>
+            <button onclick="salir()" >Salir</button>
+        </div>
+      </div>
+      <!--fin del menu para pantallas mobile-->
+  </header>
+    <!--END HEADER-->
+   <div class="container-search">
+       
+   </div>
+   <div id="container">
+       <div class="crear" id="crear" onclick="goCrear()">
+            Crear    
+       </div>
+        <div class="productos-propios">
+
+        </div>
+    </div>
+   
+   
+   <script src="/js/app.js"></script>
+</body>
+</html>

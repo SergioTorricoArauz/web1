@@ -1,0 +1,271 @@
+body{
+    background-color: black;
+}
+
+/*HEADER*/
+
+.invitado{
+    display: none;
+}
+
+.admin{
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+/*ESCRITORIO*/
+.escritorio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.escritorio input{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.escritorio button{
+    padding: 15px 80px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.escritorio button:hover{
+    background-color: teal;
+}
+
+
+/*MOBILE*/
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.mobile p{
+    font-size: 16px;
+}
+
+.mobile-slider{
+  text-align:center;
+  display: none;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 50px 0 0 0;
+}
+
+.mobile-slider p{
+    font-size: 20px;
+}
+
+/*HEADER*/
+
+/*CONTAINER*/
+.container-search{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.container-search h2{
+    color: white;
+}
+
+
+/*WELCOME*/
+.home-welcome img{
+    max-width: 100vw;
+    max-height: 600px;
+}
+
+
+/*SECCION MUJERES*/
+.seccion-mujeres{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: darksalmon;
+}
+/*END SECCION MUJERES*/
+
+
+/*SECCION HOMBRES*/
+.seccion-hombres{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: cornflowerblue
+}
+/*END SECCION HOMBRES*/
+/*PRODUCTOS*/
+.card{
+    width: 300PX;
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 15px;
+
+}
+
+.head{
+    width: 100%;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+}
+.body{
+    width: 100%;
+    background-color: tomato;
+    padding: 15px 0;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer div{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 60px;
+    background: #ffff99;
+    color: #333;
+    
+}
+
+.footer div:first-child{
+    background-color: orange;
+}
+
+.footer div:last-child{
+    background-color: red;
+}
+
+.body div{
+    padding: 15px;
+}
+/*END PRODUCTOS*/
+
+
+/*activate*/
+.activate{
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+.activate p a{
+    color: white;
+}
+
+
+/*admin*/
+
+.crear{
+    background-color: greenyellow;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    font-size: 40px;
+}
+
+.formulario-producto input, label, textarea{
+    display: inline-block;
+}
+
+.formulario-producto label{
+    display: block;
+}
+
+.formulario-producto input[type=radio]{
+    display: inline-block;
+}
+
+.formulario-producto{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    max-height: 700px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.formulario-producto div{
+    text-align: center;
+    padding: 10px;
+}
+
+.productos-propios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+/*visualizador*/
+.card-view{
+    width: 95%;
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+.head-view{
+    width: 100%;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    
+}
+.body-view{
+    width: 100%;
+    background-color: tomato;
+    padding: 15px 0;
+    
+}
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 2000px) {
+    .mobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .escritorio{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+}
+
+
