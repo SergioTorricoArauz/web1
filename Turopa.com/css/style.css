@@ -70,9 +70,19 @@ header a{
 
 .mobile-slider p{
     font-size: 20px;
+
+}
+header nav div img{
+    width: 25px;
+}
+
+.hm{
+    width: 80px;
 }
 
 /*HEADER*/
+
+
 
 /*CONTAINER*/
 .container-search{
@@ -91,6 +101,7 @@ header a{
 .home-welcome img{
     max-width: 100vw;
     max-height: 600px;
+    width: 100%;
 }
 
 
@@ -244,10 +255,12 @@ header a{
     
 }
 .body-view{
-    width: 100%;
+    width: 99%;
     background-color: tomato;
-    padding: 15px 0;
-    
+    padding: 5px 5px;
+}
+.footer-view{
+    padding: 5px 5px;
 }
 
 
@@ -269,3 +282,8 @@ header a{
 }
 
 
+@media only screen and (max-width: 3000px) {
+    .mobile{
+        display: none;
+    }
+}

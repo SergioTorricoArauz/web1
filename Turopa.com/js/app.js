@@ -198,7 +198,7 @@ function crearCard(data){
                 ${element.descripcion}
             </div>
             <div>
-                ${element.precio}
+                ${element.precio} BS
             </div>
         </div>
         <div class="footer">
@@ -303,7 +303,7 @@ function crearCardParaAdmin(data){
                 ${element.descripcion}
             </div>
             <div>
-                ${element.precio}
+                ${element.precio} BS
             </div>
         </div>
         <div class="footer">
